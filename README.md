@@ -19,22 +19,22 @@
 ### Container編
 Container 101,102の順に進めてください。
 
-- Container 101（所要時間目安：15分〜30分）：環境デプロイに数分かかります
+- Container 101（所要時間目安：15分〜30分）
 - 概要: コンテナの起動と操作
  - コンテナの起動
  - コンテナの操作とコンテナ内の操作
  - コンテナへのアプリケーションの導入
  - コンテナイメージの作成
-
-[container101-jp](https://play.instruqt.com/embed/openshift/tracks/container101-jp?token=em_cwrtT0g1S8AGiCbI&show_challenges=true)
+ - [container101-jp](https://play.instruqt.com/embed/openshift/tracks/container101-jp?token=em_cwrtT0g1S8AGiCbI&show_challenges=true)
+ - **※ハンズオンのstartボタンを押して、環境が整うまにで数分かかります**
 
 - Container 102（所要時間目安：15分〜30分）
 - 概要: Dockerfileの利用
 　- Dockerfileを利用してのコンテナイメージのビルド
 　- Dockerfileの変更に基づくコンテナイメージの変更
 　- ビルドされたイメージの利用例
-
-[container102-jp](https://play.instruqt.com/embed/openshift/tracks/container102-jp?token=em_YTfHS1Bmrj3dKD5R&show_challenges=true)
+　-[container102-jp](https://play.instruqt.com/embed/openshift/tracks/container102-jp?token=em_YTfHS1Bmrj3dKD5R&show_challenges=true)
+  - **※ハンズオンのstartボタンを押して、環境が整うまにで数分かかります**
 
 ### OpenShift編
 コースに順番はありません。コース内容には一部重複するものがございます。
@@ -45,9 +45,8 @@ Container 101,102の順に進めてください。
  - OpenShift Command Line Toolの利用
  - OpenShiftの新規ユーザー作成と権限付与
  - ユーザーの切替
-
-[Login to an OpenShift cluster (Japanese)](https://play.instruqt.com/embed/openshift/tracks/logging-into-an-openshift-cluster-jp?token=em_5J6Y6rWmtHqwXuA9&show_challenges=true)
-**※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
+ - [Login to an OpenShift cluster (Japanese)](https://play.instruqt.com/embed/openshift/tracks/logging-into-an-openshift-cluster-jp?token=em_5J6Y6rWmtHqwXuA9&show_challenges=true)
+ - **※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
  
 - Getting Started with OpenShift for Developers（所要時間目安：15分〜30分）
 - 概要: OpenShift環境でアプリケーションをビルドしてデプロイする
@@ -55,9 +54,8 @@ Container 101,102の順に進めてください。
  - ocコマンドでOpenShiftクラスタにアクセス
  - Webコンソールからアプリケーションをビルド
  - OpenShift Routeを利用して外部に公開されたURLにアクセス
-
-[Getting Started with OpenShift for Developers (Japanese)](https://play.instruqt.com/embed/openshift/tracks/developing-on-openshift-getting-started-jp?token=em_ejUY5shIu9GHyZJD&show_challenges=true)
-**※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
+ -[Getting Started with OpenShift for Developers (Japanese)](https://play.instruqt.com/embed/openshift/tracks/developing-on-openshift-getting-started-jp?token=em_ejUY5shIu9GHyZJD&show_challenges=true)
+ - **※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
 
 - Deploying Applications from source　（所要時間目安：15分〜30分）
 - 概要: イメージからアプリケーションをビルドしてデプロイする
@@ -68,18 +66,16 @@ Container 101,102の順に進めてください。
  - アプリの削除
  - ocコマンドでアプリを再度デプロイ
  - ビルドトリガーの設定
-
-[deploying-applications-from-source (Japanese)](https://play.instruqt.com/embed/openshift/tracks/deploying-applications-from-source-jp?token=em_vPba4iC-zQwOtP7S&show_challenges=true)
-**※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
+ - [deploying-applications-from-source (Japanese)](https://play.instruqt.com/embed/openshift/tracks/deploying-applications-from-source-jp?token=em_vPba4iC-zQwOtP7S&show_challenges=true)
+ - **※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
 
 - Getting Started with ArgoCD and OpenShift GitOps Operator (Japanese)　（所要時間目安：15分〜30分）
 - 概要: OpenShiftのGitOpsを体験する
  - OpenShiftのGitOpsについてとOperatorのインストール
  - Argo CDにインスタンスにCLIとGUIを用いて接続する
  - サンプルアプリケーションをデプロイし、Gitで変更を行った内容がアプリに反映されることを確認する
-
-[Getting Started with ArgoCD and OpenShift GitOps Operator (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-getting-started-jp?token=em_eXQHuhFdwqfyZYka&show_challenges=true)
-**※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
+ - [Getting Started with ArgoCD and OpenShift GitOps Operator (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-getting-started-jp?token=em_eXQHuhFdwqfyZYka&show_challenges=true)
+ - **※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
 
 - Using OpenShift Pipelines (Japanese)（所要時間目安：15分〜30分）
 - 概要: OpenShift Pipelines を使用してアプリケーションのデプロイを自動化する方法を学習する
@@ -88,15 +84,13 @@ Container 101,102の順に進めてください。
  - タスク リソース定義をインストール
  - Tekton パイプライン を作成
  - 作成したパイプラインをトリガーして、アプリケーションのデプロイを完了
-
- [Using OpenShift Pipelines (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-pipelines-jp?token=em_Iuuq9GMWhtmKCsnX&show_challenges=true)
-**※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
+ -  [Using OpenShift Pipelines (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-pipelines-jp?token=em_Iuuq9GMWhtmKCsnX&show_challenges=true)
+ - *※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
 
 - Playgrounds Openshift 4.9（1時間利用可能）
 - 概要: 演習項目は特に無し。admin権限ありで自由に使って良い4.9環境。ただしworkerの数を増やすようなOps的な操作はできません。
-
- [Playgrounds OpenShift 4.9 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/playgrounds-openshift49-jp?token=em_45GQzjHJQWBluzkt&show_challenges=true)
-**※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
+ -  [Playgrounds OpenShift 4.9 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/playgrounds-openshift49-jp?token=em_45GQzjHJQWBluzkt&show_challenges=true)
+ -  **※ハンズオンのstartボタンを押して、環境が整うまにで20分程度かかります**
 
 ## FAQ
 
@@ -107,7 +101,7 @@ Container 101,102の順に進めてください。
   - 自己証明利用に起因するものです。
 
 - OpenShiftコンソールのpodがRunning状態にもかかわらず、警告も表示されずWebコンソールにアクセスできません
- - まだ環境が整っていない可能性があるので、時間をおいてから、再度、OpenShiftのWebコンソールのURLにアクセスしてください
+  - まだ環境が整っていない可能性があるので、時間をおいてから、再度、OpenShiftのWebコンソールのURLにアクセスしてください
 
 
 ## 免責事項
