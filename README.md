@@ -29,7 +29,7 @@
 Container 101,102の順に進めてください。
 **ハンズオンのLaunchボタンを押して環境が整うまにで数分かかります。**
 
-:green_book: [container101-jp](https://play.instruqt.com/embed/openshift/tracks/container101-jp?token=em_cwrtT0g1S8AGiCbI&show_challenges=true)（所要時間目安：15分〜30分）
+:green_book: [container101-jp]（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
@@ -40,7 +40,7 @@ Container 101,102の順に進めてください。
 - コンテナへのアプリケーションの導入
 - コンテナイメージの作成
 
-:green_book: [container102-jp](https://play.instruqt.com/embed/openshift/tracks/container102-jp?token=em_YTfHS1Bmrj3dKD5R&show_challenges=true)
+:green_book: [container102-jp]
 
 難易度：★☆☆☆☆
 
@@ -55,7 +55,7 @@ Container 101,102の順に進めてください。
 コースに順番はありません。好きなコースを体験してください。コース内容には一部重複するものがございます。
 **ハンズオンのLaunchボタンを押して環境が整うまにで20分程度かかります。**
 
-:green_book: [Login to an OpenShift cluster (Japanese)](https://play.instruqt.com/embed/openshift/tracks/logging-into-an-openshift-cluster-jp?token=em_5J6Y6rWmtHqwXuA9&show_challenges=true)（所要時間目安：10分〜15分）
+:green_book: [Login to an OpenShift cluster (Japanese)]（所要時間目安：10分〜15分）
 
 難易度：★☆☆☆☆
 
@@ -66,7 +66,7 @@ Container 101,102の順に進めてください。
 - OpenShiftの新規ユーザー作成と権限付与
 - ユーザーの切替
 
-:green_book: [Getting Started with OpenShift for Developers (Japanese)](https://play.instruqt.com/embed/openshift/tracks/developing-on-openshift-getting-started-jp?token=em_ejUY5shIu9GHyZJD&show_challenges=true)（所要時間目安：15分〜30分）
+:green_book: [Getting Started with OpenShift for Developers (Japanese)]（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
@@ -77,7 +77,7 @@ Container 101,102の順に進めてください。
 - Webコンソールからアプリケーションをビルド
 - OpenShift Routeを利用して外部に公開されたURLにアクセス
 
-:green_book: [deploying-applications-from-source (Japanese)](https://play.instruqt.com/embed/openshift/tracks/deploying-applications-from-source-jp?token=em_vPba4iC-zQwOtP7S&show_challenges=true)（所要時間目安：15分〜30分）
+:green_book: [deploying-applications-from-source (Japanese)]（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
@@ -91,7 +91,7 @@ Container 101,102の順に進めてください。
 - ocコマンドでアプリを再度デプロイ
 - ビルドトリガーの設定
 
-:green_book: [Getting Started with ArgoCD and OpenShift GitOps Operator (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-getting-started-jp?token=em_eXQHuhFdwqfyZYka&show_challenges=true)（所要時間目安：15分〜30分）
+:green_book: [Getting Started with ArgoCD and OpenShift GitOps Operator (Japanese)]（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
@@ -101,7 +101,7 @@ Container 101,102の順に進めてください。
 - Argo CDにインスタンスにCLIとGUIを用いて接続する
 - サンプルアプリケーションをデプロイし、Gitで変更を行った内容がアプリに反映されることを確認する
 
-:green_book: [Using OpenShift Pipelines (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-pipelines-jp?token=em_Iuuq9GMWhtmKCsnX&show_challenges=true)（所要時間目安：15分〜30分）
+:green_book: [Using OpenShift Pipelines (Japanese)]（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
@@ -113,7 +113,7 @@ Container 101,102の順に進めてください。
 - Tekton パイプライン を作成
 - 作成したパイプラインをトリガーして、アプリケーションのデプロイを完了
 
-:green_book: [Playgrounds OpenShift 4.9 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/playgrounds-openshift49-jp?token=em_45GQzjHJQWBluzkt&show_challenges=true)（1時間利用可能）
+:green_book: [Playgrounds OpenShift 4.9 (Japanese)]（1時間利用可能）
 
 難易度：★☆☆☆☆
 
