@@ -129,8 +129,14 @@ Container 101,102の順に進めてください。
 - OpenShiftのWebコンソールにアクセスすると「警告：将来の潜在的なセキュリティリスク（Firefoxの場合）」が表示されます。
    - 自己証明利用に起因するものです。
 
-- OpenShiftコンソールのpodがRunning状態にもかかわらず、警告も表示されずWebコンソールにアクセスできません
-   - まだ環境が整っていない可能性があるので、時間をおいてから、再度、OpenShiftのWebコンソールのURLにアクセスしてください。
+- OpenShiftコンソールのpodがRunning状態にもかかわらずWebコンソールにアクセスできません
+
+   - `Error from server (InternalError): Internal error occurred: unexpected response: 503`
+   - `Unable to connect to the server: EOF`
+   - `The connection to the server oauth-openshift.crc-dzk9v-master-0.crc.XXXXXXX.instruqt.io was refused - did you specify the right host or port?`
+
+  
+      - まだ環境が整っていない可能性があるので、しばらく時間をおいてから、再度、OpenShiftのWebコンソールのURLにアクセスしてください。
 
 
 ##  :heavy_exclamation_mark: 免責事項
