@@ -27,7 +27,7 @@
 ## Container編
 
 Container 101,102の順に進めてください。
-**ハンズオンのLaunchボタンを押して環境が整うまにで数分かかります。**
+**ハンズオンのLaunchボタンを押して環境が整うまでに数分かかります。**
 
 :green_book: [container101-jp](https://play.instruqt.com/embed/openshift/tracks/container101-jp?token=em_cwrtT0g1S8AGiCbI&show_challenges=true)（所要時間目安：15分〜30分）
 
@@ -53,7 +53,7 @@ Container 101,102の順に進めてください。
 ## OpenShift編
 
 コースに順番はありません。好きなコースを体験してください。コース内容には一部重複するものがございます。
-**ハンズオンのLaunchボタンを押して環境が整うまにで20分程度かかります。**
+**ハンズオンのLaunchボタンを押して環境が整うまでに20分程度かかります。**
 
 :green_book: [Login to an OpenShift cluster (Japanese)](https://play.instruqt.com/embed/openshift/tracks/logging-into-an-openshift-cluster-jp?token=em_5J6Y6rWmtHqwXuA9&show_challenges=true)（所要時間目安：10分〜15分）
 
