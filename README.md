@@ -12,7 +12,7 @@
 ## コース数と難易度
 
 - Container編：2コース　★☆☆☆☆ 
-- OpenShift編：6コース　★☆☆☆☆ 
+- OpenShift編：7コース　★☆☆☆☆ 
 
 |  難易度  |    |
 | ---- | ---- |
@@ -112,6 +112,19 @@ Container 101,102の順に進めてください。
 - タスク リソース定義をインストール
 - Tekton パイプライン を作成
 - 作成したパイプラインをトリガーして、アプリケーションのデプロイを完了
+
+:green_book: [Getting Started with OpenShift Serverless (Japanese)](https://play.instruqt.com/embed/openshift/tracks/serverless-getting-started-jp?token=em_l5TuSKB7oPQwryBT&show_challenges=true)（所要時間目安：15分〜30分）
+
+難易度：★☆☆☆☆
+
+概要: クラウドネィティブな開発モデルを提供する OpenShift Serverless の使用方法の基本を学習する
+
+- OpenShift Serverlessのserviceをデプロイ
+- 複数のrevisionsをデプロイ
+- Serverless serviceの基本コンポーネント
+- Serverlessがscale-to-zeroを可能にする方法
+- canary および blue-green デプロイメント
+- knative client の利用
 
 :green_book: [Playgrounds OpenShift 4.9 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/playgrounds-openshift49-jp?token=em_45GQzjHJQWBluzkt&show_challenges=true)（1時間利用可能）
 
