@@ -139,18 +139,21 @@ Container 101,102の順に進めてください。
 - 演習環境が動きません
    - 環境のリソースの状態等により環境のロードに失敗する場合があります。リロードしてください。それでも駄目な場合は時間をおいて試してください。
 
-- OpenShiftのWebコンソールにアクセスすると「警告：将来の潜在的なセキュリティリスク（Firefoxの場合）」が表示されます。
-   - 自己証明利用に起因するものです。
-
-- OpenShiftコンソールのpodがRunning状態にもかかわらずWebコンソールにアクセスできません
-
+- OpenShiftコンソールのpodがRunning状態にもかかわらずconsoleへのrouteを探すコマンドを実行するとメッセージが表示されます。
    - `Error from server (InternalError): Internal error occurred: unexpected response: 503`
    - `Unable to connect to the server: EOF`
    - `The connection to the server oauth-openshift.crc-dzk9v-master-0.crc.XXXXXXX.instruqt.io was refused - did you specify the right host or port?`
-
-  
-      - まだ環境が整っていない可能性があるので、しばらく時間をおいてから、再度、OpenShiftのWebコンソールのURLにアクセスしてください。
-
+   
+      - まだ環境が整っていない可能性があるので、しばらく時間をおいてから、再度、consoleへのrouteを探すコマンドを実行してください。
+      
+ 
+- OpenShiftのWebコンソールにアクセスするとエラーで接続できません
+   - `アクセスしようとするサイトを見つけられません`
+   
+      - まだ環境が整っていない可能性があるので、しばらく時間をおいてから、再度、WebコンソールのURLにアクセスしてください。
+   
+- OpenShiftのWebコンソールにアクセスすると「警告：将来の潜在的なセキュリティリスク（Firefoxの場合）」が表示されます。
+   - 自己証明利用に起因するものなので、危険を承知の上、続行してください
 
 - コピーしたコマンドを貼り付ける方法について
 
