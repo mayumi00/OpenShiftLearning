@@ -132,7 +132,16 @@ Container 101,102の順に進めてください。
 
 概要: 演習項目は特に無し
 
-- admin権限ありで自由に使って良い4.9環境。ただしworkerの数を増やすようなOps的な操作はできません。
+- admin権限ありで自由にえるOpenShift4.9環境。ただしworkerの数を増やすようなOps的な操作はできません。
+
+:green_book: [Playgrounds OpenShift 4.11 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/playgrounds-openshift411-jp?token=em_lgmeM3oAOksQvgHJ&show_challenges=true)（1時間利用可能）
+
+難易度：★☆☆☆☆
+
+概要: 演習項目は特に無し
+
+- admin権限ありで自由に使えるOpenShift 4.11環境。ただしworkerの数を増やすようなOps的な操作はできません。
+
 
 ## :pencil: FAQ
 
