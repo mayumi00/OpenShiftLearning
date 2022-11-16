@@ -12,7 +12,7 @@
 ## コース数と難易度
 
 - Container編：2コース　★☆☆☆☆ 
-- OpenShift編：7コース　★☆☆☆☆ 
+- OpenShift編：9コース　★☆☆☆☆ 
 
 |  難易度  |    |
 | ---- | ---- |
@@ -91,6 +91,8 @@ Container 101,102の順に進めてください。
 - ocコマンドでアプリを再度デプロイ
 - ビルドトリガーの設定
 
+### GitOps
+
 :green_book: [Getting Started with ArgoCD and OpenShift GitOps Operator (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-getting-started-jp?token=em_eXQHuhFdwqfyZYka&show_challenges=true)（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
@@ -101,6 +103,16 @@ Container 101,102の順に進めてください。
 - Argo CDにインスタンスにCLIとGUIを用いて接続する
 - サンプルアプリケーションをデプロイし、Gitで変更を行った内容がアプリに反映されることを確認する
 
+:new:
+:green_book: [Working with Kustomize (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-kustomize-jp?token=em_xwRSqwHEZLz-4S1u&show_challenges=true)（所要時間目安：15分〜30分）
+
+難易度：★☆☆☆☆
+
+概要: Kustomizeを利用してアプリケーションをデプロイする
+
+- Kustomizeの仕組みとCLIについて
+- Kustomizedアプリケーションをデプロイする
+
 :green_book: [Getting Started with OpenShift Pipelines (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-pipelines-jp?token=em_Iuuq9GMWhtmKCsnX&show_challenges=true)（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
@@ -108,10 +120,12 @@ Container 101,102の順に進めてください。
 概要: OpenShift Pipelines を使用してアプリケーションのデプロイを自動化する方法を学習する
 
 - OpenShift Pipelines Operatorをインストール
-- Hello World の「タスク」を作成
-- タスク リソース定義をインストール
-- Tekton パイプライン を作成
-- 作成したパイプラインをトリガーして、アプリケーションのデプロイを完了
+- サンプル　Hello World Taskを作成
+- Taskリソース定義
+- Tekton Pipelineを作成
+- 作成したPipelineをトリガーして、アプリケーションのデプロイを完了
+
+### Serverless
 
 :green_book: [Getting Started with OpenShift Serverless (Japanese)](https://play.instruqt.com/embed/openshift/tracks/serverless-getting-started-jp?token=em_l5TuSKB7oPQwryBT&show_challenges=true)（所要時間目安：15分〜30分）
 
@@ -125,6 +139,8 @@ Container 101,102の順に進めてください。
 - Serverlessがscale-to-zeroを可能にする方法
 - canary および blue-green デプロイメント
 - knative client の利用
+
+### Playgrounds OpenShift
 
 :green_book: [Playgrounds OpenShift 4.9 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/playgrounds-openshift49-jp?token=em_45GQzjHJQWBluzkt&show_challenges=true)（1時間利用可能）
 
@@ -148,12 +164,12 @@ Container 101,102の順に進めてください。
 - 演習環境が動きません
    - 環境のリソースの状態等により環境のロードに失敗する場合があります。リロードしてください。それでも駄目な場合は時間をおいて試してください。
 
-- OpenShiftコンソールのpodがRunning状態にもかかわらずconsoleへのrouteを探すコマンドを実行するとメッセージが表示されます。
+- OpenShiftクラスターにログインを試みるとエラーメッセージが表示されます。／　OpenShiftコンソールのpodがRunning状態にもかかわらずconsoleへのrouteを探すコマンドを実行するとメッセージが表示されます。
    - `Error from server (InternalError): Internal error occurred: unexpected response: 503`
    - `Unable to connect to the server: EOF`
    - `The connection to the server oauth-openshift.crc-dzk9v-master-0.crc.XXXXXXX.instruqt.io was refused - did you specify the right host or port?`
    
-      - まだ環境が整っていない可能性があるので、しばらく時間をおいてから、再度、consoleへのrouteを探すコマンドを実行してください。
+      - まだ環境が整っていない可能性があるので、しばらく時間をおいてから、再度、ログインまたはconsoleへのrouteを探すコマンドを実行してください。
       
  
 - OpenShiftのWebコンソールにアクセスするとエラーで接続できません
@@ -162,7 +178,7 @@ Container 101,102の順に進めてください。
       - まだ環境が整っていない可能性があるので、しばらく時間をおいてから、再度、WebコンソールのURLにアクセスしてください。
    
 - OpenShiftのWebコンソールにアクセスすると「警告：将来の潜在的なセキュリティリスク（Firefoxの場合）」が表示されます。
-   - 自己証明利用に起因するものなので、危険を承知の上、続行してください
+   - 自己証明利用に起因するものなので、そのまま続行してください。
 
 - コピーしたコマンドを貼り付ける方法について
 
