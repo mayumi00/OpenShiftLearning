@@ -72,9 +72,9 @@ Container 101,102の順に進めてください。
 
 概要: OpenShift環境でアプリケーションをビルドしてデプロイする
 
-- WebコンソールでOpenShiftクラスタにアクセス
 - ocコマンドでOpenShiftクラスタにアクセス
-- Webコンソールからアプリケーションをビルド
+- WebコンソールでOpenShiftクラスタにアクセスしイメージからアプリケーションをデプロイ
+- デプロイしたアプリケーションをスケールする
 - OpenShift Routeを利用して外部に公開されたURLにアクセス
 
 :green_book: [Deploying Applications From Source (Japanese)](https://play.instruqt.com/embed/openshift/tracks/deploying-applications-from-source-jp?token=em_vPba4iC-zQwOtP7S&show_challenges=true)（所要時間目安：15分〜30分）
@@ -83,8 +83,8 @@ Container 101,102の順に進めてください。
 
 概要: イメージからアプリケーションをビルドしてデプロイする
 
-- ocコマンドを利用してプロジェクトを作成、とWebコンソールで確認
-- Webコンソールを利用してイメージからアプリをビルド&デプロイ
+- ocコマンドを利用してプロジェクトを作成、Webコンソールで確認
+- Webコンソールを利用してソースからアプリをビルド&デプロイ
 - Webコンソールでアプリのログを確認
 - 外部に公開されたURLにアクセスしアプリの確認
 - アプリの削除
