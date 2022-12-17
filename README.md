@@ -59,7 +59,7 @@ Container 101,102の順に進めてください。
 
 難易度：★☆☆☆☆
 
-概要: OpenShiftクラスターにログインするしてユーザーの操作を行う
+概要: OpenShiftクラスターにログインしてユーザーの操作を行う
 
 - OpenShiftクラスタのWebコンソールURLを調べてアクセスする
 - OpenShift Command Line Toolの利用
@@ -103,7 +103,6 @@ Container 101,102の順に進めてください。
 - Argo CDにインスタンスにCLIとGUIを用いて接続する
 - サンプルアプリケーションをデプロイし、Gitで変更を行った内容がアプリに反映されることを確認する
 
-:new:
 :green_book: [Working with Kustomize (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-kustomize-jp?token=em_xwRSqwHEZLz-4S1u&show_challenges=true)（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
@@ -113,7 +112,20 @@ Container 101,102の順に進めてください。
 - Kustomizeの仕組みとCLIについて
 - Kustomizedアプリケーションをデプロイする
 
-:green_book: [Getting Started with OpenShift Pipelines (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-pipelines-jp?token=em_Iuuq9GMWhtmKCsnX&show_challenges=true)（所要時間目安：15分〜30分）
+:new:
+:green_book: [Working with Helm (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-helm-jp?token=em_0IilZzl5oFN6aht3&show_challenges=true
+)（所要時間目安：15分〜30分）
+
+難易度：★☆☆☆☆
+
+概要: Argo CDを利用してHelmチャートをデプロイする
+
+- Helmについて
+- Argo CDを利用してHelmチャートをデプロイする
+
+### Pipeline
+
+[Getting Started with OpenShift Pipelines (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-pipelines-jp?token=em_Iuuq9GMWhtmKCsnX&show_challenges=true)（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
