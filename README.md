@@ -12,7 +12,7 @@
 ## コース数と難易度
 
 - Container編：2コース　★☆☆☆☆ 
-- OpenShift編：9コース　★☆☆☆☆ 
+- OpenShift編：13コース　★☆☆☆☆ 〜 ★★☆☆☆ 
 
 |  難易度  |    |
 | ---- | ---- |
@@ -52,48 +52,109 @@ Container 101,102の順に進めてください。
 
 ## OpenShift編
 
-コースに順番はありません。好きなコースを体験してください。コース内容には一部重複するものがございます。
+- ハンズオンに順番はありません。好きなハンズオンを体験してください
+- OpenShift基礎編はその順が望ましいです
+- ハンズオンはそれぞれ独立しているため、Webコンソールやocコマンドでのログインなど重複する部分が多々あります。
+
 **ハンズオンのLaunchボタンを押して環境が整うまでに20分程度かかります。**
 
-:green_book: [Login to an OpenShift cluster (Japanese)](https://play.instruqt.com/embed/openshift/tracks/logging-into-an-openshift-cluster-jp?token=em_5J6Y6rWmtHqwXuA9&show_challenges=true)（所要時間目安：10分〜15分）
+### OpenShift基礎編
 
-難易度：★☆☆☆☆
-
-概要: OpenShiftクラスターにログインしてユーザーの操作を行う
-
-- OpenShiftクラスタのWebコンソールURLを調べてアクセスする
-- OpenShift Command Line Toolの利用
-- OpenShiftの新規ユーザー作成と権限付与
-- ユーザーの切替
-
-:green_book: [Getting Started with OpenShift for Developers (Japanese)](https://play.instruqt.com/embed/openshift/tracks/developing-on-openshift-getting-started-jp?token=em_ejUY5shIu9GHyZJD&show_challenges=true)（所要時間目安：15分〜30分）
+:green_book: [Getting Started with OpenShift for Developers (Japanese)](https://play.instruqt.com/embed/openshift/tracks/developing-on-openshift-getting-started-jp?token=em_ejUY5shIu9GHyZJD&show_challenges=true)（はじめてみようOpenShift）（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
 概要: OpenShift環境でアプリケーションをビルドしてデプロイする
 
-- ocコマンドでOpenShiftクラスタにアクセス
-- WebコンソールでOpenShiftクラスタにアクセスしイメージからアプリケーションをデプロイ
-- デプロイしたアプリケーションをスケールする
+- コマンドラインインターフェースを使用してログインする
+- Webコンソールでログインして、新しいプロジェクトを作成し、Parkmapsアプリをイメージからデプロイする
+- Webコンソールでアプリケーションをスケーリングする
 - OpenShift Routeを利用して外部に公開されたURLにアクセス
 
-:green_book: [Deploying Applications From Source (Japanese)](https://play.instruqt.com/embed/openshift/tracks/deploying-applications-from-source-jp?token=em_vPba4iC-zQwOtP7S&show_challenges=true)（所要時間目安：15分〜30分）
+:green_book: [Login to an OpenShift cluster (Japanese)](https://play.instruqt.com/embed/openshift/tracks/logging-into-an-openshift-cluster-jp?token=em_5J6Y6rWmtHqwXuA9&show_challenges=true)（OpenShiftクラスター上でのユーザー切り替え）（所要時間目安：10分〜15分）
+
+難易度：★☆☆☆☆
+
+概要: OpenShiftクラスターにログインしてユーザーの操作を行う
+
+- WebコンソールのURLを調べてログインし、新しいプロジェクトを作成する
+- コマンドラインインターフェースを使用してログインする
+- ocコマンドで新しいユーザーを作成する、Webコンソールを利用してユーザー権限を付与する
+- ocコマンドで、ユーザーの切り替えを行う
+
+:green_book: [Deploying Applications From Images (Japanese)](https://play.instruqt.com/embed/openshift/tracks/deploying-applications-from-images-jp?token=em_4er-ge2Y68HjE2Oc&show_challenges=true)（イメージを利用したアプリのデプロイ）（所要時間目安：10分〜15分）
+
+難易度：★☆☆☆☆
+
+概要: イメージを利用してアプリケーションをデプロイする
+
+*NOTE: [Getting Started with OpenShift for Developers (Japanese)](https://play.instruqt.com/embed/openshift/tracks/developing-on-openshift-getting-started-jp?token=em_ejUY5shIu9GHyZJD&show_challenges=true)とほぼ同じ内容で、ocコマンドでイメージからデプロイする項目が追加されています。*
+
+- コマンドラインインターフェースを使用してログインし、ocコマンドで新しプロジェクトを作成する
+- Webコンソールでログインして、Parkmapsアプリをイメージからデプロイする
+- Webコンソールでアプリケーションをスケーリングする
+- ocコマンドでParkmapsに関する詳細を表示した後に、Parkmapsに関連するオブジェクトを削除する
+- ocコマンドでParkmapsアプリをイメージからデプロイする
+
+
+:green_book: [Deploying Applications From Source (Japanese)](https://play.instruqt.com/embed/openshift/tracks/deploying-applications-from-source-jp?token=em_vPba4iC-zQwOtP7S&show_challenges=true)（ソースからのアプリのデプロイ）（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
 概要: ソースからアプリケーションをビルドしてデプロイする
 
-- ocコマンドを利用してプロジェクトを作成、Webコンソールで確認
-- Webコンソールを利用してソースからアプリをビルド&デプロイ
-- Webコンソールでアプリのログを確認
-- 外部に公開されたURLにアクセスしアプリの確認
-- アプリの削除
-- ocコマンドでアプリを再度デプロイ
-- ビルドトリガーの設定
+- コマンドラインインターフェースを使用してログインし、ocコマンドで新しプロジェクトを作成する
+- Webコンソールでログインして、ソースコードをビルドし、アプリをデプロイする
+- Webコンソールで、アプリのデプロイのログを表示する
+- デプロイされたアプリのURLにアクセスする
+- ocコマンドで、デプロイしたアプリに関連するオブジェクトを削除する
+- ocコマンドで同じアプリをデプロイする
+- 既に実行されているアプリをocコマンドでリビルドする
+
+:new:
+:green_book: [Manage Resource Objects (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-manage-resource-objects-jp?token=em_2P_-985m1wllVPOZ&show_challenges=true)（OpenShiftのりソースオブジェクト）（所要時間目安：15分〜30分）
+
+難易度：★☆☆☆☆
+
+概要: OpenShiftの様々なリソースオブジェクトについて理解する
+
+- コマンドラインインターフェースを使用してログインし、ocコマンドで新しプロジェクトを作成し、アプリケーションをデプロイする
+- 様々なリソースオブジェクトを表示する
+- リソースオブジェクトについて詳細な説明を表示する
+- oc editコマンドでリソースオブジェクトを編集する
+- oc createでリソースオブジェクトを作成する
+- oc replaceとoc patchコマンドの利用
+- oc labelコマンドでラベルを設定する
+- リソースオブジェクトを削除する
+
+:new:
+:green_book: [Using Port Forwarding (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-port-forwarding-jp?token=em_81k1Kb_XXhS83F6W&show_challenges=true)（ポートフォワーディングによるデータベースへのリモートアクセス）（所要時間目安：15分〜30分）
+
+難易度：★★☆☆☆
+
+概要: OpenShift上のデータベースにポートフォワーディングを使用してリモートアクセスする
+
+- コマンドラインインターフェースを使用してログインし、ocコマンドで新しプロジェクトを作成する
+- oc new-appコマンドでpostgresql-ephemeralというDBアプリをデプロイする
+- oc rshコマンドを利用してコンテナのインタラクティブシェルにアクセスし、shコマンドを実行する
+- oc port-forwardコマンドでDBにリモートアクセスする
+
+:new:
+:green_book: [Transferring Files in and out of Containers (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-transferring-files-jp?token=em_uw1_ii0Sbu-uvwG-&show_challenges=true)（コンテナとローカルマシン間のファイルのコピー）（所要時間目安：15分〜30分）
+
+難易度：★★☆☆☆
+
+概要: 実行中のコンテナとローカルマシンの間でファイルをコピーする
+
+- コマンドラインインターフェースを使用してログインし、ocコマンドで新しプロジェクトを作成する
+- oc new-appコマンドでsimplemessageという文字列を表示するアプリをデプロイする
+- oc rsyncコマンドでローカルにあるファイルをPodに転送し、ファイルにある文字列が表示されることを確認する
+- ローカルのファイルの変更に応じてPodのファイルも変更されることを確認する
+- persistent volumeを利用する
 
 ### GitOps
 
-:green_book: [Getting Started with ArgoCD and OpenShift GitOps Operator (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-getting-started-jp?token=em_eXQHuhFdwqfyZYka&show_challenges=true)（所要時間目安：15分〜30分）
+:green_book: [Getting Started with ArgoCD and OpenShift GitOps Operator (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-getting-started-jp?token=em_eXQHuhFdwqfyZYka&show_challenges=true)（ArgoCDを使ってみよう）（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
@@ -112,7 +173,6 @@ Container 101,102の順に進めてください。
 - Kustomizeの仕組みとCLIについて
 - Kustomizedアプリケーションをデプロイする
 
-:new:
 :green_book: [Working with Helm (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-helm-jp?token=em_0IilZzl5oFN6aht3&show_challenges=true
 )（所要時間目安：15分〜30分）
 
@@ -125,7 +185,7 @@ Container 101,102の順に進めてください。
 
 ### Pipeline
 
-[Getting Started with OpenShift Pipelines (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-pipelines-jp?token=em_Iuuq9GMWhtmKCsnX&show_challenges=true)（所要時間目安：15分〜30分）
+[Getting Started with OpenShift Pipelines (Japanese)](https://play.instruqt.com/embed/openshift/tracks/gitops-pipelines-jp?token=em_Iuuq9GMWhtmKCsnX&show_challenges=true)（tektonを使ってみよう）（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
@@ -154,15 +214,7 @@ Container 101,102の順に進めてください。
 
 ### Playgrounds OpenShift
 
-:green_book: [Playgrounds OpenShift 4.9 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/playgrounds-openshift49-jp?token=em_45GQzjHJQWBluzkt&show_challenges=true)（1時間利用可能）
-
-難易度：★☆☆☆☆
-
-概要: 演習項目は特に無し
-
-- admin権限ありで自由にえるOpenShift4.9環境。ただしworkerの数を増やすようなOps的な操作はできません。
-
-:green_book: [Playgrounds OpenShift 4.11 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/playgrounds-openshift411-jp?token=em_lgmeM3oAOksQvgHJ&show_challenges=true)（1時間利用可能）
+:green_book: [Playgrounds OpenShift 4.11 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/playgrounds-openshift411-jp?token=em_lgmeM3oAOksQvgHJ&show_challenges=true)（自由に使えるOpenShift環境）（1時間利用可能）
 
 難易度：★☆☆☆☆
 
