@@ -112,7 +112,7 @@ Container 101,102の順に進めてください。
 - 既に実行されているアプリをocコマンドでリビルドする
 
 :new:
-:green_book: [Manage Resource Objects (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-manage-resource-objects-jp?token=em_2P_-985m1wllVPOZ&show_challenges=true)（OpenShiftのりソースオブジェクト）（所要時間目安：15分〜30分）
+:green_book: [Manage Resource Objects (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-manage-resource-objects-jp?token=em_2P_-985m1wllVPOZ&show_challenges=true)（OpenShiftのリソースオブジェクト）（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
