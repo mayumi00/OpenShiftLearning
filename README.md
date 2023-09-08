@@ -12,7 +12,7 @@
 ## コース数と難易度
 
 - Container編：2コース　★☆☆☆☆ 
-- OpenShift編：13コース　★☆☆☆☆ 〜 ★★☆☆☆ 
+- OpenShift編：14コース　★☆☆☆☆ 〜 ★★☆☆☆ 
 
 |  難易度  |    |
 | ---- | ---- |
@@ -112,6 +112,17 @@ Container 101,102の順に進めてください。
 - 既に実行されているアプリをocコマンドでリビルドする
 
 :new:
+:green_book: [OpenShift Persistent Volume (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-persistent-volume-jp?token=em_ZLVCcR0uwZ5MRuvt_challenges=true)（OpenShiftの永続ストレージ）（所要時間目安：15分〜30分）
+
+難易度：★☆☆☆☆
+
+概要: OpenShiftの永続ストレージについて学習する
+
+- ocコマンドで新規プロジェクトを作成し、アプリケーションでデプロイする
+- Persistent Volume Clame と Persistent Volumeについて
+- 永続ストレージの動作を確認する
+
+
 :green_book: [Manage Resource Objects (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-manage-resource-objects-jp?token=em_2P_-985m1wllVPOZ&show_challenges=true)（OpenShiftのリソースオブジェクト）（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
@@ -127,7 +138,6 @@ Container 101,102の順に進めてください。
 - oc labelコマンドでラベルを設定する
 - リソースオブジェクトを削除する
 
-:new:
 :green_book: [Using Port Forwarding (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-port-forwarding-jp?token=em_81k1Kb_XXhS83F6W&show_challenges=true)（ポートフォワーディングによるデータベースへのリモートアクセス）（所要時間目安：15分〜30分）
 
 難易度：★★☆☆☆
@@ -139,7 +149,6 @@ Container 101,102の順に進めてください。
 - oc rshコマンドを利用してコンテナのインタラクティブシェルにアクセスし、shコマンドを実行する
 - oc port-forwardコマンドでDBにリモートアクセスする
 
-:new:
 :green_book: [Transferring Files in and out of Containers (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-transferring-files-jp?token=em_uw1_ii0Sbu-uvwG-&show_challenges=true)（コンテナとローカルマシン間のファイルのコピー）（所要時間目安：15分〜30分）
 
 難易度：★★☆☆☆
@@ -214,7 +223,7 @@ Container 101,102の順に進めてください。
 
 ### Playgrounds OpenShift
 
-:green_book: [Playgrounds OpenShift 4.11 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/playgrounds-openshift411-jp?token=em_lgmeM3oAOksQvgHJ&show_challenges=true)（自由に使えるOpenShift環境）（1時間利用可能）
+:green_book: [Playgrounds OpenShift 4.12 (Japanese)](https://play.instruqt.com/embed/openshift/tracks/red-hat-openshift-playground-412-jp?token=em_76RNgIPdTf3tHjE1=true)（自由に使えるOpenShift環境）（1時間利用可能）
 
 難易度：★☆☆☆☆
 
