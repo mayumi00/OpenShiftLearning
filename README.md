@@ -138,7 +138,7 @@ Container 101,102の順に進めてください。
 - oc labelコマンドでラベルを設定する
 - リソースオブジェクトを削除する
 
-:green_book: [Using Port Forwarding (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-port-forwarding-jp?token=em_81k1Kb_XXhS83F6W&show_challenges=true)（ポートフォワーディングによるデータベースへのリモートアクセス）（所要時間目安：15分〜30分）
+:green_book: （メンテ中）Using Port Forwarding （ポートフォワーディングによるデータベースへのリモートアクセス）（所要時間目安：15分〜30分）
 
 難易度：★★☆☆☆
 
