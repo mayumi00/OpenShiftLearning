@@ -12,7 +12,7 @@
 ## コース数と難易度
 
 - Container編：2コース　★☆☆☆☆ 
-- OpenShift編：14コース　★☆☆☆☆ 〜 ★★☆☆☆ 
+- OpenShift編：16コース　★☆☆☆☆ 〜 ★★☆☆☆ 
 
 |  難易度  |    |
 | ---- | ---- |
@@ -111,7 +111,6 @@ Container 101,102の順に進めてください。
 - ocコマンドで同じアプリをデプロイする
 - 既に実行されているアプリをocコマンドでリビルドする
 
-:new:
 :green_book: [OpenShift Persistent Volume (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-persistent-volume-jp?token=em_ZLVCcR0uwZ5MRuvt_challenges=true)（OpenShiftの永続ストレージ）（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
@@ -122,6 +121,27 @@ Container 101,102の順に進めてください。
 - Persistent Volume Clame と Persistent Volumeについて
 - 永続ストレージの動作を確認する
 
+:new:
+:green_book: [OpenShift Resource Quota Limit (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-resource-quota-limit-jp?token=em_e8uDgZyyAZF7nxsv&show_challenges=true)（OpenShiftのResource QuotaとLimit）（所要時間目安：15分〜30分）
+
+難易度：★☆☆☆☆
+
+概要: OpenShiftにおけるリソースの制限方法について学習する
+
+- プロジェクトに対するResourceQuotaおよびLimitRageの設定を行う
+- 特定のユーザに対するquotaの設定を行う
+- 特定のアプリケーションに対するquotaの設定を行う
+- プロジェクトテンプレートを用いたプロジェクトのquotaおよびlimit設定を行う
+
+:new:
+:green_book: [OpenShift RoleBinding (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-rolebinding-jp?token=em_hqidfKJSGYvM7XLW&show_challenges=true)（OpenShiftのロールとロールバインディング）（所要時間目安：15分〜30分）
+
+難易度：★☆☆☆☆
+
+概要: OpenShiftにおけるRole-based Access Controlについて学習する
+
+- ロールとロールバインディングについて
+- ロールを作成する
 
 :green_book: [Manage Resource Objects (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-manage-resource-objects-jp?token=em_2P_-985m1wllVPOZ&show_challenges=true)（OpenShiftのリソースオブジェクト）（所要時間目安：15分〜30分）
 
@@ -229,7 +249,7 @@ Container 101,102の順に進めてください。
 
 概要: 演習項目は特に無し
 
-- admin権限ありで自由に使えるOpenShift 4.11環境。ただしworkerの数を増やすようなOps的な操作はできません。
+- admin権限ありで自由に使えるOpenShift 4.12環境。ただしworkerの数を増やすようなOps的な操作はできません。
 
 
 ## :pencil: FAQ
