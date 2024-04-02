@@ -111,7 +111,7 @@ Container 101,102の順に進めてください。
 - ocコマンドで同じアプリをデプロイする
 - 既に実行されているアプリをocコマンドでリビルドする
 
-:green_book: [OpenShift Persistent Volume (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-persistent-volume-jp?token=em_ZLVCcR0uwZ5MRuvt_challenges=true)（OpenShiftの永続ストレージ）（所要時間目安：15分〜30分）
+:green_book: [OpenShift Persistent Volume (Japanese)](https://play.instruqt.com/embed/openshift/tracks/openshift-persistent-volume-jp?token=em_ZLVCcR0uwZ5MRuvt&show_challenges=true)（OpenShiftの永続ストレージ）（所要時間目安：15分〜30分）
 
 難易度：★☆☆☆☆
 
